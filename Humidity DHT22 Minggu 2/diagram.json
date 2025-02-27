@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "author": "Fawwaz Mufid W",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -95.7, "left": -130.2, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:3V3", "dht1:VCC", "green", [ "h0" ] ],
+    [ "esp:GND.1", "dht1:GND", "black", [ "h-14.21", "v-115.2", "h-76.8" ] ],
+    [ "dht1:SDA", "esp:27", "green", [ "v28.8", "h86.5", "v76.8" ] ]
+  ],
+  "dependencies": {}
+}
