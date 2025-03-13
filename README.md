@@ -1,0 +1,80 @@
+# IoT Project Repository - Semester 4
+
+Welcome to my GitHub repository containing a collection of Internet of Things (IoT) projects from my 4th semester lectures. This repository is designed to document and share the IoT projects I have worked on throughout the semester. Each project includes practical experiments using ESP32 microcontrollers, sensors, actuators, and other IoT applications.
+
+---
+
+## List Project
+
+Here is a list of IoT projects available in this repository:
+
+### 1. **Traffic Light Week 1**
+   - **Descriptive**: The aim of this experiment is to create a simple traffic light system using an ESP32 microcontroller and three LEDs (Red, Yellow and Green).
+   - **Main Feature**:
+     - Learn how the ESP32 microcontroller works to control electronic devices like LEDs.
+     - Traffic light system simulation with the sequence of lights that comply with standards.
+     - Demonstrates the potential use of the Internet of Things (IoT) in smart city applications.
+   - **Tools**: ESP32, 1 Red LED, 1 Yellow LED, 1 Green LED, Wire Jumper, VScode.
+   - **Folder**: [Traffic Light Week 1](https://github.com/fawwazmw/iot_tivokasi_fawwaz/tree/main/Traffic%20Light%20Minggu%201)
+
+### 2. **Humidity DHT22 Week 2**
+   - **Descriptive**: This experiment uses a DHT22 sensor connected to an ESP32 microcontroller to measure temperature and humidity.
+   - **Main Feature**:
+     - Measures air temperature and humidity in real-time.
+     - Demonstrates the potential of IoT applications in environmental monitoring.
+   - **Tools**: ESP32, DHT22, Wire Jumper, VSCode.
+   - **Folder**: [Humidity DHT22 Week 2](https://github.com/fawwazmw/iot_tivokasi_fawwaz/tree/main/Humidity%20DHT22%20Minggu%202)
+
+### 4. **Relay, Button & LED Week 3**
+   - **Descriptive**: The purpose of this experiment is to find out how the relay, button, and LED connected to the ESP32 microcontroller work. The relay functions as an electronic switch to control high-power devices, such as lights or motors, while the button is used as a manual input to turn the relay and LED on or off.
+   - **Main Feature**:
+     - Learn how relays, buttons and LEDs work and their integration with ESP32.
+     - Controlling high power devices using relays via ESP32.
+     - Demonstrates the potential of IoT applications in smart home automation.
+   - **Tools**: ESP32, Relay Module, Lampu, VSCode.
+   - **Folder**: [Relay, Button & LED Week 3](https://github.com/fawwazmw/iot_tivokasi_fawwaz/tree/main/Simulation%20Relay%20Button%20LED%20Minggu%203)
+
+### 5. **Simulation Distance Sensor Ultrasonic Week 4**
+   - **Descriptive**: The purpose of this experiment is to learn how an ultrasonic sensor (HC-SR04) works, which is connected to an ESP32 microcontroller and can detect and measure the distance of objects in real-time.
+   - **Main Feature**:
+     - Learn how the HC-SR04 ultrasonic sensor works and its integration with ESP32.
+     - Measure object distance in real-time using ultrasonic sensors.
+     - Demonstrates the potential of IoT applications in proximity monitoring, such as automated parking systems or object detection.
+   - **Tools**: ESP32, HC-SR04, VSCode.
+   - **Folder**: [Distance Sensor Ultrasonic Week 4](https://github.com/fawwazmw/iot_tivokasi_fawwaz/tree/main/Project%20Ultrasonic%20Sensor%20Minggu%204)
+
+---
+
+## How to Use Projects
+
+1. **Clone Repository**:
+   ```bash
+   git clone https://github.com/fawwazmw/iot_tivokasi_fawwaz.git
+   cd iot_tivokasi_fawwaz
+   ```
+
+2. **Installation Tools**:
+   ```bash
+   - Make sure you have the necessary software installed, such as VSCode and PlatformIO.
+   - Install additional libraries if needed (see each project's documentation).
+   ```
+
+3. **Upload Code to ESP32**:
+   ```bash
+   - Open the project folder you want to test.
+   - Upload the code to the ESP32 using PlatformIO or Arduino IDE.
+   ```
+
+4. **Run Project**:
+   ```bash
+   - Connect the hardware according to the circuit diagram provided.
+   - Observe the output results on Serial Monitor or web application (if available).
+   ```
+
+## Contribute
+
+If you have ideas or suggestions to improve these projects, please create a pull request or submit an issue . Your contributions are greatly appreciated!
+
+## License
+
+This repository is licensed under the [MIT License](https://opensource.org/license/MIT) . You are free to use, modify, and distribute this code as long as you credit the original source.
