@@ -43,6 +43,15 @@ Here is a list of IoT projects available in this repository:
    - **Tools**: ESP32, HC-SR04, VSCode.
    - **Folder**: [Distance Sensor Ultrasonic Week 4](https://github.com/fawwazmw/iot_tivokasi_fawwaz/tree/main/Project%20Ultrasonic%20Sensor%20Minggu%204)
 
+### 6. **API Using Laravel 11 Ngrok & API Access WOKWI Week 5**
+   - **Descriptive**: The purpose of this experiment is to learn how to create an API using the Laravel 11 framework and integrate it with an IoT simulation on the WOKWI platform. The created API will receive data from an ESP32 microcontroller configured in the WOKWI simulation, and this data will be processed and displayed in real-time by the Laravel API. In addition, Ngrok is used to create a public Laravel API. The purpose of this practice is to gain a basic understanding of IoT API development and the integration of hardware (ESP32) and software (Laravel).
+   - **Main Feature**:
+     - Learn how the DHT11 temperature and humidity sensor works : Understand its functionality and how it can be integrated with the ESP32 microcontroller.
+     - Measure temperature and humidity in real-time : Use the DHT11 sensor to collect environmental data and send it to the Laravel API.
+     - Demonstrate the potential of IoT applications in environmental monitoring : Explore use cases such as smart agriculture, weather stations, or home automation systems.
+   - **Tools**: ESP32, DHT11 Sensor, VSCode, Laravel 11, Ngrok, WOKWI
+   - **Folder**: [API Using Laravel 11 Ngrok & API Access WOKWI](https://github.com/fawwazmw/iot_tivokasi_fawwaz/tree/main/API%20Using%20Laravel%2011%20Ngrok%20%26%20API%20Access%20WOKWI%20Minggu%205)
+
 ---
 
 ## How to Use Projects
