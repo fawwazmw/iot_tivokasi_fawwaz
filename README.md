@@ -52,6 +52,23 @@ Here is a list of IoT projects available in this repository:
    - **Tools**: ESP32, DHT11 Sensor, VSCode, Laravel 11, Ngrok, WOKWI
    - **Folder**: [API Using Laravel 11 Ngrok & API Access WOKWI](https://github.com/fawwazmw/iot_tivokasi_fawwaz/tree/main/API%20Using%20Laravel%2011%20Ngrok%20%26%20API%20Access%20WOKWI%20Minggu%205)
 
+### 7. **LED Real Hardware Project Week 6**
+   - **Descriptive**: This experiment aims to teach you how to use an ESP32 microcontroller in a real hardware arrangement to control several LEDs.  Four LEDs (red, blue, yellow, and green) will be controlled by the ESP32 through programming that allows for several blinking patterns, including random, sequential, alternating, and simultaneous modes.  Gaining practical expertise with IoT hardware development and learning how to combine software logic with tangible parts like LEDs and breadboards are the objectives.
+   - **Main Feature**:
+      1. Control Multiple LEDs :
+         - Learn how to control four LEDs (red, blue, yellow, and green) connected to the ESP32.
+      2. Various Blinking Modes :
+         - Mode 1 : All LEDs turn on and off simultaneously.
+         - Mode 2 : LEDs turn on sequentially (red → blue → yellow → green).
+         - Mode 3 : LEDs blink alternately (red ↔ blue, yellow ↔ green).
+         - Mode 4 : LEDs blink in a random pattern.
+      3. Real-Time Hardware Interaction :
+         - Observe the behavior of LEDs in real-time based on the programmed logic.
+      4. Hands-On IoT Development :
+         - Explore the potential of IoT applications by integrating hardware and software.
+   - **Tools**: ESP32, LEDs (Red, Blue, Yellow, Green), Breadboard, Jumper Wires
+   - **Folder**: [LED Real Hardware Project](https://github.com/fawwazmw/iot_tivokasi_fawwaz/tree/main/API%20Using%20Laravel%2011%20Ngrok%20%26%20API%20Access%20WOKWI%20Minggu%205)
+
 ---
 
 ## How to Use Projects
