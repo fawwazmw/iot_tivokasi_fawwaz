@@ -67,7 +67,7 @@ Here is a list of IoT projects available in this repository:
       4. Hands-On IoT Development :
          - Explore the potential of IoT applications by integrating hardware and software.
    - **Tools**: ESP32, LEDs (Red, Blue, Yellow, Green), Breadboard, Jumper Wires
-   - **Folder**: [LED Real Hardware Project](https://github.com/fawwazmw/iot_tivokasi_fawwaz/tree/main/API%20Using%20Laravel%2011%20Ngrok%20%26%20API%20Access%20WOKWI%20Minggu%205)
+   - **Folder**: [LED Real Hardware Project](https://github.com/fawwazmw/iot_tivokasi_fawwaz/tree/main/LED%20Real%20Hardware%20Project%20Minggu%206)
 
 ---
 
