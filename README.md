@@ -84,7 +84,7 @@ Here is a list of IoT projects available in this repository:
    - **Tools**:
       - WiFi Scanning : ESP32, Kabel USB Micro, VSCode/Arduino IDE.
       - Sensor DHT22 & Laravel API : ESP32, Sensor DHT22, Breadboard, Kabel Jumper, Laravel Framework, Ngrok.
-   - **Folder**: [Real Hardware WiFi Scanning & ESP32 Sensor DHT22 With Laravel API](https://github.com/fawwazmw/iot_tivokasi_fawwaz/tree/main/LED%20Real%20Hardware%20Project%20Minggu%206)
+   - **Folder**: [Real Hardware WiFi Scanning & ESP32 Sensor DHT22 With Laravel API](https://github.com/fawwazmw/iot_tivokasi_fawwaz/tree/main/Real%20Hardware%20WiFi%20Scanning%20%26%20ESP32%20Sensor%20DHT22%20With%20Laravel%20API%20Minggu%207)
 
 ---
 
