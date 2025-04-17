@@ -69,6 +69,23 @@ Here is a list of IoT projects available in this repository:
    - **Tools**: ESP32, LEDs (Red, Blue, Yellow, Green), Breadboard, Jumper Wires
    - **Folder**: [LED Real Hardware Project](https://github.com/fawwazmw/iot_tivokasi_fawwaz/tree/main/LED%20Real%20Hardware%20Project%20Minggu%206)
 
+### 8. **Real Hardware WiFi Scanning & ESP32 Sensor DHT22 With Laravel API Week 7**
+   - **Descriptive**: This experiment aims to teach you how to use an ESP32 microcontroller in a real hardware arrangement to control several LEDs.  Four LEDs (red, blue, yellow, and green) will be controlled by the ESP32 through programming that allows for several blinking patterns, including random, sequential, alternating, and simultaneous modes.  Gaining practical expertise with IoT hardware development and learning how to combine software logic with tangible parts like LEDs and breadboards are the objectives.
+   - **Main Feature**:
+      1. WiFi Scanning :
+         - Memindai jaringan WiFi di sekitar ESP32.
+         - Menampilkan SSID, kekuatan sinyal (RSSI), dan status enkripsi setiap jaringan.
+         - Melakukan pemindaian setiap 5 detik untuk memantau perubahan jaringan.
+      2. Sensor DHT22 dengan Laravel API :
+         - Mengukur suhu dan kelembapan udara secara real-time menggunakan sensor DHT22.
+         - Mengirim data sensor ke server Laravel API melalui HTTP POST.
+         - Menyimpan data sensor dalam database server dan menampilkan respons dari server.
+         - Menunjukkan potensi aplikasi IoT dalam pemantauan lingkungan seperti smart agriculture atau stasiun cuaca.
+   - **Tools**:
+      - WiFi Scanning : ESP32, Kabel USB Micro, VSCode/Arduino IDE.
+      - Sensor DHT22 & Laravel API : ESP32, Sensor DHT22, Breadboard, Kabel Jumper, Laravel Framework, Ngrok.
+   - **Folder**: [Real Hardware WiFi Scanning & ESP32 Sensor DHT22 With Laravel API](https://github.com/fawwazmw/iot_tivokasi_fawwaz/tree/main/LED%20Real%20Hardware%20Project%20Minggu%206)
+
 ---
 
 ## How to Use Projects
