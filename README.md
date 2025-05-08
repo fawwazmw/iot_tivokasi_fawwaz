@@ -103,7 +103,7 @@ Here is a list of IoT projects available in this repository:
       5. IoT Dashboard Potential :
          - Demonstrates the potential of IoT applications in smart home systems, industrial automation, and remote device monitoring.
    - **Tools**: ESP32, DHT11 Sensor, VSCode, Laravel 11, Ngrok, WOKWI
-   - **Folder**: [Interface Web Dashboard IoT Week 8](https://github.com/fawwazmw/iot_tivokasi_fawwaz/tree/main/Interface%20Web%20Dashboard%20IoT%20Minggu%20%8)
+   - **Folder**: [Interface Web Dashboard IoT Week 8](https://github.com/fawwazmw/iot_tivokasi_fawwaz/tree/main/Interface%20Web%20Dashboard%20IoT%20Minggu%208)
 
 ---
 
