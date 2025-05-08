@@ -73,18 +73,37 @@ Here is a list of IoT projects available in this repository:
    - **Descriptive**: This experiment aims to teach you how to use an ESP32 microcontroller in a real hardware arrangement to control several LEDs.  Four LEDs (red, blue, yellow, and green) will be controlled by the ESP32 through programming that allows for several blinking patterns, including random, sequential, alternating, and simultaneous modes.  Gaining practical expertise with IoT hardware development and learning how to combine software logic with tangible parts like LEDs and breadboards are the objectives.
    - **Main Feature**:
       1. WiFi Scanning :
-         - Memindai jaringan WiFi di sekitar ESP32.
-         - Menampilkan SSID, kekuatan sinyal (RSSI), dan status enkripsi setiap jaringan.
-         - Melakukan pemindaian setiap 5 detik untuk memantau perubahan jaringan.
+         - Scans for WiFi networks around the ESP32.
+         - Displays the SSID, signal strength (RSSI), and encryption status of each network.
+         - Performs a scan every 5 seconds to monitor network changes.
       2. Sensor DHT22 dengan Laravel API :
-         - Mengukur suhu dan kelembapan udara secara real-time menggunakan sensor DHT22.
-         - Mengirim data sensor ke server Laravel API melalui HTTP POST.
-         - Menyimpan data sensor dalam database server dan menampilkan respons dari server.
-         - Menunjukkan potensi aplikasi IoT dalam pemantauan lingkungan seperti smart agriculture atau stasiun cuaca.
+         - Measure temperature and humidity in real-time using DHT22 sensor.
+         - Send sensor data to Laravel API server via HTTP POST.
+         - Store sensor data in server database and display server response.
+         - Demonstrate potential IoT applications in environmental monitoring such as smart agriculture or weather stations.
    - **Tools**:
-      - WiFi Scanning : ESP32, Kabel USB Micro, VSCode/Arduino IDE.
+      - WiFi Scanning : ESP32, USB Micro Cable, VSCode/Arduino IDE.
       - Sensor DHT22 & Laravel API : ESP32, Sensor DHT22, Breadboard, Kabel Jumper, Laravel Framework, Ngrok.
    - **Folder**: [Real Hardware WiFi Scanning & ESP32 Sensor DHT22 With Laravel API](https://github.com/fawwazmw/iot_tivokasi_fawwaz/tree/main/Real%20Hardware%20WiFi%20Scanning%20%26%20ESP32%20Sensor%20DHT22%20With%20Laravel%20API%20Minggu%207)
+
+### 9. **Interface Web Dashboard IoT Week 8**
+   - **Descriptive**: This experiment is a continuation of the LED Real Hardware Project from Week 6, where instead of only controlling LEDs physically using the ESP32 microcontroller, we now integrate it with a web-based dashboard. The dashboard displays real-time LED status and includes a graph that visualizes how LED states change over time (e.g., blinking frequency or duration). This project introduces the concept of IoT dashboards for monitoring and controlling physical devices remotely.
+   - **Main Feature**:
+      1. Web-Based Control Panel :
+         - Control LED modes (simultaneous, sequential, alternating, random) via a web interface.
+         - View current LED state in real-time on the dashboard.
+      2. Graph Visualization :
+         - Display historical data of LED activity using chart libraries like Chart.js or ApexCharts.
+         - Visualize blinking patterns over time to analyze behavior or anomalies.
+      3. ESP32 Integration :
+         - Send sensor-like LED status updates to the server.
+         - Receive commands from the web dashboard to change LED behavior.
+      4. Database Logging :
+         - Store LED activity logs in a database for later analysis and visualization.
+      5. IoT Dashboard Potential :
+         - Demonstrates the potential of IoT applications in smart home systems, industrial automation, and remote device monitoring.
+   - **Tools**: ESP32, DHT11 Sensor, VSCode, Laravel 11, Ngrok, WOKWI
+   - **Folder**: [Interface Web Dashboard IoT Week 8](https://github.com/fawwazmw/iot_tivokasi_fawwaz/tree/main/Interface%20Web%20Dashboard%20IoT%20Minggu%20%8)
 
 ---
 
